@@ -20,3 +20,22 @@ function openTab(event, tabName) {
     document.querySelector(".tab-link").click();
   });
   
+  /*video play control */
+
+  
+  document.addEventListener("DOMContentLoaded", function () {
+    let projectBlocks = document.querySelectorAll(".project-card");
+    
+    projectBlocks.forEach((block) => {
+      let video = block.querySelector(".video");
+
+    video.addEventListener("mouseenter", function () {
+        video.play();
+    });
+
+    video.addEventListener("mouseleave", function () {
+        video.pause();
+        video.currentTime = 0;
+    });
+  });
+});
