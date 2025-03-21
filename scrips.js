@@ -39,3 +39,35 @@ function openTab(event, tabName) {
     });
   });
 });
+
+//gpt code langues
+document.addEventListener("DOMContentLoaded", function () {
+  let currentLang = localStorage.getItem("selectedLang") || "en"; // โหลดค่าจาก Local Storage หรือใช้ค่าเริ่มต้น
+
+  function loadLanguage(lang) {
+    fetch(`${lang}.json`) // โหลดไฟล์ JSON ตามภาษาที่เลือก
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("title").textContent = data.title;
+        document.getElementById("logo").textContent = data.header.logo;
+        document.getElementById("menu-home").textContent = data.header.menu.home;
+        document.getElementById("menu-aboutme").textContent = data.header.menu.aboutme;
+        document.getElementById("menu-projects").textContent = data.header.menu.projects;
+        document.getElementById("welcome").textContent = data.home.welcome;
+        document.getElementById("role").textContent = data.home.role;
+        document.getElementById("description").textContent = data.home.description;
+        document.getElementById("contact").textContent = data.home.contact;
+      })
+      .catch(error => console.error("Error loading language:", error));
+  }
+
+  document.getElementById("languageSelector").value = currentLang; // ตั้งค่า Dropdown ให้ตรงกับภาษาที่เลือก
+  document.getElementById("languageSelector").addEventListener("change", function () {
+    currentLang = this.value;
+    localStorage.setItem("selectedLang", currentLang); // บันทึกค่าภาษา
+    loadLanguage(currentLang);
+  });
+
+  loadLanguage(currentLang); // โหลดภาษาที่เลือกไว้ตอนเริ่มต้น
+});
+

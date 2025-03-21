@@ -1,0 +1,87 @@
+
+    {
+      "title":"เว็บไซต์ของพุฒิเมธ",
+        "header": {
+          "logo": "พุฒิเมธ ผิวงาม",
+          "menu": {
+            "home": "หน้าหลัก",
+            "aboutme": "เกี่ยวกับฉัน",
+            "projects": "ผลงาน"
+          }
+        },
+        "home": {
+          "welcome": "Hi, Welcome to My Website",
+          "role": "I'm a Unity Game Programmer",
+          "description": "I'm interested in game development, and I have experience with C# and Unity. I also have interest in programming, and I'm committed to learning to up my skills, whether in game development or others area.",
+          "contact": "Contact"
+        },
+        "about_me": {
+          "title": "About Me",
+          "tabs": {
+            "general": "General",
+            "education": "Education",
+            "skills": "Skills",
+            "language": "Language"
+          },
+          "general": {
+            "name": "Puttimet Phiwngam",
+            "age": "Age: 21",
+            "gender": "Gender: Male",
+            "dob": "Date Of Birth: 20/02/2004",
+            "nationality": "Nationality: Thai"
+          }
+        },
+        "education": {
+          "title": "Education",
+          "university": {
+            "name": "Rangsit University",
+            "years": "(2022 - Present)",
+            "faculty": "Faculty: Digital Innovation and Technology",
+            "major": "Major: Computer Games and Esports (3rd year)",
+            "gpa": "GPA: 3.63"
+          },
+          "high_school": {
+            "name": "Banpintho School",
+            "years": "(2019-2022)",
+            "stream": "I studied in grades 10-12 in the Science and Mathematics stream.",
+            "gpa": "GPA: 3.61"
+          }
+        },
+        "skills": {
+          "programming_languages": {
+            "title": "Programming Languages",
+            "common": "C# (common)",
+            "basic": "Python, HTML, CSS (basic)"
+          },
+          "software_skills": {
+            "title": "Software Skills",
+            "list": ["Unity", "Maya", "Adobe Photoshop"]
+          }
+        },
+        "language": {
+          "title": "Languages",
+          "list": {
+            "thai": "Thai (Native)",
+            "japanese": "Japanese (N5)",
+            "english": "English (Basic)"
+          }
+        },
+        "projects": {
+          "title": "Recent Projects",
+          "list": [
+            {
+              "name": "Metal Brake",
+              "description": "Designed and developed a game with my team. Systems in the game e.g. grid movement system, Character skill, Enemy AI system.",
+              "play_game": "Play Game",
+              "github": "Github Repo"
+            },
+            {
+              "name": "Carrot Bunny",
+              "description": "Take on the role of rabbits competing to collect carrots falling from the sky.",
+              "play_game": "Play Game",
+              "github": "Github Repo"
+            }
+          ]
+        }
+      }
+      

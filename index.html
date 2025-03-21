@@ -4,7 +4,7 @@
         <meta charset = "UTF-8" />
         <meta name="viewport"
         content="width = device-width, initial-scale=1.0" />
-        <title>Puttimet Website</title>
+        <title id="title"></title>
         <link rel="stylesheet" href="style.css" />
         <link 
             href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" 
@@ -14,26 +14,27 @@
     <body>
 
         <header class="header">
-            <a href="#home" class="logo"> Puttimet
-            <span>Phiwngam</span></a>
+            <a href="#home" class="logo" id="logo"></a>
 
             <i class="bx bx-menu" id="menu-icon"></i>
 
             <nav class="navbar">
-                <a href="#home">Home</a>
-                <a href="#aboutme">About Me</a>
-                <a href="#projects">Projects</a>
+                <a href="#home" id="menu-home"></a>
+                <a href="#aboutme" id="menu-aboutme"></a>
+                <a href="#projects" id="menu-projects"></a>
+                <select id ="languageSelector">
+                    <option value="th">ไทย</option>
+                    <option value="en">English</option>
+                    <option value="jp">日本語</option>
+                  </select>
             </nav>
         </header>
         
         <section class="home" id="home">
             <div class="home-content">
-                <h1>Hi, Welcome to <span>My Website</span></h1>
-                <h3>I'm a <span>Unity Game Programmer</span></h3>
-                <p>I'm interested in game development, and I have experience with C# 
-                    and Unity. I also have interest in programming, and I'm committed 
-                    to learning to up my skills,<br> whether in game development or others 
-                    area.</p>
+                <h1 id="welcome"></h1>
+                <h3 id="role"></h3>
+                <p id="description"></p>
                 <div class="social-icons">
                     <a href="https://github.com/Umamii13">
                         <i class="bx bxl-github"></i>
@@ -47,7 +48,7 @@
                 </div>
 
                 <div class="btn-group">
-                    <a href="mailto:forfew7139@gmail.com" class="btn">Contact</a>
+                    <a href="mailto:forfew7139@gmail.com" class="btn" id="contact"></a>
                 </div>
             </div>
             
