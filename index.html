@@ -59,52 +59,52 @@
         </section>
         <section class="aboutme" id="aboutme">
             <div class="aboutme-content">
-                <h2><span>About</span> Me</h2>
+                <h2 id="aboutme-title"></h2>
 
 
                 <div class="tabs">
-                    <button class="tab-link active" onclick="openTab(event, 'general')">General</button>
-                    <button class="tab-link" onclick="openTab(event, 'education')">Education</button>
-                    <button class="tab-link" onclick="openTab(event, 'skills')">Skills</button>
-                    <button class="tab-link" onclick="openTab(event, 'language')">Language</button>
+                    <button class="tab-link active" onclick="openTab(event, 'general')" id="tab-general"></button>
+                    <button class="tab-link" onclick="openTab(event, 'education')" id="tab-education"></button>
+                    <button class="tab-link" onclick="openTab(event, 'skills')" id="tab-skills"></button>
+                    <button class="tab-link" onclick="openTab(event, 'language')" id="tab-language"></button>
                 </div>
 
                 <div class="tap-content">
           
                     <div id="general" class="tab-content active">
                         
-                        <h1>Puttimet Phiwngam</h1>
-                        <p1> Age : 21 <br>
-                            Gender : Male <br>
-                            Date Of Birth : 20/02/2004 <br>
-                            Nationality : Thai <br></p1>
+                        <h1 id="name"></h1>
+                        <p id="age"></p>
+                        <p id="gender"></p>
+                        <p id="birth"></p>
+                        <p id="nationality"></p>
                     </div>
                     <div id="education" class="tab-content">
-                        <h1>Rangsit University <span>(2022 - Present)</span> </h1>
-                        <p1> Faculty: Digital Innovation and Technology <br>
-                            Major: Computer Games and Esports (3rd year) <br>
-                            <span>GPA: 3.63</span>
-                        </p1>
-                        <h1>Banpintho School <span> (2019-2022)</span></h1>
-                        <p1> I studied in grades 10-12 in the Science and Mathematics stream.<br>
-                             <span>GPA: 3.61</span>
-                        </p1>
+                        <h1 id="university-name"></h1>
+                        <h1><span id="education-year"></span> </h1>
+                        <p id="faculty"></p>
+                        <p id = "major"></p>
+                        <p><span id="gpa"></span></p>
+                        </p>
+                        <h1 id="school-name"></h1>
+                        <h1><span id="school-year"></span></h1>
+                        <p id="stream"><br>
+                        <p><span id="school-gpa"></span></p>     
+                        </p>
                     </div>
                     <div id="skills" class="tab-content">
-                        <h1>Programming Language</h1>
-                        <p1>C# <span>(common)</span> <br> Phython, HTML, Css <span>(basic)</span>
-                        </p1>
-                        <h1>Software Skills</h1>
-                        <p1>Unity <br>
-                            Maya <br>
-                            Adobe Photoshop 
-                        </p1>
+                        <h1 id="skill-title"></h1>
+                        <p id="skill-common"></p>
+                        <p id="skill-basic"></p>
+                        <h1 id="software-skill"></h1>
+                        <p id="list"></p>
 
                     </div>
                     <div id="language" class="tab-content">
-                        <h1>Language</h1>
-                        <p>Thai <span>(Native)</span><br> Japan <span>(N5)</span> <br>
-                            English <span>(basic)</span> </p>
+                        <h1 id="language-title"></h1>
+                        <p id="th"></p>
+                        <p id="jp"></p>
+                        <p id="en"></p>
                     </div>
                 </div>
             </div>
@@ -113,70 +113,9 @@
           
 
         <section class="projects" id="projects">
-            <h2 class="section-title">Recent <span> Projects</span></h2>
-
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Metal Brake</h3>
-                    <video class="video" src="metalbrake-gameplay.mp4" muted loop></video>
-                    <p>Designed and developed a game with my team.
-                        Systems in the game e.g. grid movement system, 
-                        Character skill, Enemy AI system. </p>
-                    <div class="btn-group">
-                        <a href="https://umamii13.itch.io/metalbrake" target="_blank" class="btn">Play Game</a>
-                        <a href="https://github.com/Umamii13/GameProject_2_MatalBrake" target="_blank" class="btn">Github Repo</a>
-                    </div>
-
-                </div>
-                <div class="project-card">
-                    <h3>Carrot Bunny</h3>
-                    <video class="video" src="carrotbunny-gameplay.mp4" muted loop></video>
-                    <p> take on the role of rabbits competing to collect carrots falling from 
-                        the sky </p>
-                    <div class="btn-group">
-                        <a href="https://umamii13.itch.io/carrotbunny" target="_blank" class="btn">Play Game</a>
-                        <a href="https://github.com/Umamii13/CarrotBunny_Project" target="_blank" class="btn">Github Repo</a>
-                    </div>
-
-                </div>
-                <div class="project-card">
-                    <h3>Asmost Fly</h3>
-                    <video class="video" src="asmostfly-gameplay.mp4" muted loop></video>
-                    <p> An Endless Game is contol a plan up and down to  avoid meteor, 
-                        I'm solo developer and used SunoAi for generate music in game 
-                        </p>
-                    <div class="btn-group">
-                        <a href="https://umamii13.itch.io/asmostfly" target="_blank" class="btn">Play Game</a>
-                        <a href="https://github.com/Umamii13/AsmostFly" target="_blank" class="btn">Github Repo</a>
-                    </div>
-
-                </div>
-                <div class="project-card">
-                    <h3>Slime Adventure Project</h3>
-                    <video class="video" src="slimeadventure-gameplay.mp4" muted loop></video>
-                    <p>A 2D side-scrolling puzzle game in which players take on the role of a slime 
-                        to solve various puzzles they encounter in order to protect the slime village 
-                        from the mutant slimes.(No Background Music)</p>
-                    <div class="btn-group">
-                        <a href="https://youtu.be/qgKC1SjifoE" target="_blank" class="btn">Video</a>
-                    </div>
-
-                </div>
-                <div class="project-card">
-                    <h3>Super Slime Project</h3>
-                    <video class="video" src="superslime-gameplay.mp4" muted loop></video>
-                    <p> My first 2D side-scrolling game, players take on the role of a more powerful 
-                        slime than usual who will travel in search of treasure and fight against an 
-                        evil knight who will stand in his way.(No Background Music)</p>
-                    <div class="btn-group">
-                        <a href="https://github.com/Umamii13/SuperSlime" target="_blank" class="btn">Github Repo</a>
-                    </div>
-
-                </div>
-            </div>
+            <h2 class="section-title" id="projects-head" ></h2>
+            <div class="project-grid" id="projects-container"></div>
         </section>
-
-
 
         <script src="scrips.js"></script>
     </body>

@@ -235,7 +235,7 @@ section{
   font-weight: 800;
 }
 
-.aboutme-content #general p1{
+.aboutme-content #general p{
   font-size: 1.5rem;
   font-weight: 600;
   color: rgb(0, 255, 174);
@@ -245,10 +245,12 @@ section{
 .aboutme-content #education h1{
   margin-top: 2rem;
   margin-bottom: 1rem;
+  margin-left: 2px;
+  display: inline-block;
   font-size: 3rem;
   font-weight: 800;
 }
-.aboutme-content #education p1{
+.aboutme-content #education p{
   font-size: 1.5rem;
   font-weight: 600;
   color: rgb(0, 255, 174);
@@ -261,7 +263,7 @@ section{
   font-size: 3rem;
   font-weight: 800;
 }
-.aboutme-content #skills p1{
+.aboutme-content #skills p{
   font-size: 1.5rem;
   font-weight: 600;
   color: rgb(0, 255, 174);

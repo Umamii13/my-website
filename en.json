@@ -1,6 +1,6 @@
 
     {
-      "title":"Puttimet Website",
+        "title":"Puttimet Website",
         "header": {
           "logo": "Puttimet Phiwngam",
           "menu": {
@@ -15,7 +15,7 @@
           "description": "I'm interested in game development, and I have experience with C# and Unity. I also have interest in programming, and I'm committed to learning to up my skills, whether in game development or others area.",
           "contact": "Contact"
         },
-        "about_me": {
+        "aboutme": {
           "title": "About Me",
           "tabs": {
             "general": "General",
@@ -27,43 +27,42 @@
             "name": "Puttimet Phiwngam",
             "age": "Age: 21",
             "gender": "Gender: Male",
-            "dob": "Date Of Birth: 20/02/2004",
+            "birth": "Date Of Birth: 20/02/2004",
             "nationality": "Nationality: Thai"
-          }
-        },
-        "education": {
-          "title": "Education",
-          "university": {
-            "name": "Rangsit University",
-            "years": "(2022 - Present)",
-            "faculty": "Faculty: Digital Innovation and Technology",
-            "major": "Major: Computer Games and Esports (3rd year)",
-            "gpa": "GPA: 3.63"
           },
-          "high_school": {
-            "name": "Banpintho School",
-            "years": "(2019-2022)",
-            "stream": "I studied in grades 10-12 in the Science and Mathematics stream.",
-            "gpa": "GPA: 3.61"
-          }
-        },
-        "skills": {
-          "programming_languages": {
-            "title": "Programming Languages",
-            "common": "C# (common)",
-            "basic": "Python, HTML, CSS (basic)"
+          "education": {
+            "university": {
+              "name": "Rangsit University",
+              "years": "(2022 - Present)",
+              "faculty": "Faculty: Digital Innovation and Technology",
+              "major": "Major: Computer Games and Esports (3rd year)",
+              "gpa": "GPA: 3.63"
+            },
+            "high_school": {
+              "name": "Banpintho School",
+              "years": "(2019-2022)",
+              "stream": "I studied in grades 10-12 in the Science and Mathematics stream.",
+              "gpa": "GPA: 3.61"
+            }
           },
-          "software_skills": {
-            "title": "Software Skills",
-            "list": ["Unity", "Maya", "Adobe Photoshop"]
-          }
-        },
-        "language": {
-          "title": "Languages",
-          "list": {
-            "thai": "Thai (Native)",
-            "japanese": "Japanese (N5)",
-            "english": "English (Basic)"
+          "skills": {
+            "programming_languages": {
+              "title": "Programming Languages",
+              "common": "C# (common)",
+              "basic": "Python, HTML, CSS (basic)"
+            },
+            "software_skills": {
+              "title": "Software Skills",
+              "list": ["Unity", "Maya", "Adobe Photoshop"]
+            }
+          },
+          "language": {
+            "title": "Languages",
+            "list": {
+              "thai": "Thai (Native)",
+              "japan": "Japanese (N5)",
+              "english": "English (Basic)"
+            }
           }
         },
         "projects": {
@@ -71,15 +70,48 @@
           "list": [
             {
               "name": "Metal Brake",
+              "video": "metalbrake-gameplay.mp4",
               "description": "Designed and developed a game with my team. Systems in the game e.g. grid movement system, Character skill, Enemy AI system.",
               "play_game": "Play Game",
-              "github": "Github Repo"
+              "play_link": "https://umamii13.itch.io/metalbrake",
+              "github": "Github Repo",
+              "github_link": "https://github.com/Umamii13/GameProject_2_MatalBrake"
             },
             {
               "name": "Carrot Bunny",
+              "video": "carrotbunny-gameplay.mp4",
               "description": "Take on the role of rabbits competing to collect carrots falling from the sky.",
               "play_game": "Play Game",
-              "github": "Github Repo"
+              "play_link": "https://umamii13.itch.io/carrotbunny",
+              "github": "Github Repo",
+              "github_link": "https://github.com/Umamii13/CarrotBunny_Project"
+            },
+            {
+              "name": "Asmost Fly",
+              "video": "asmostfly-gameplay.mp4",
+              "description": "An Endless Game is contol a plan up and down to  avoid meteor, I'm solo developer and used SunoAi for generate music in game ",
+              "play_game": "Play Game",
+              "play_link": "https://umamii13.itch.io/asmostfly",
+              "github": "Github Repo",
+              "github_link": "https://github.com/Umamii13/AsmostFly"
+            },
+            {
+              "name": "Slime Adventure Project",
+              "video": "slimeadventure-gameplay.mp4",
+              "description": "A 2D side-scrolling puzzle game in which players take on the role of a slime to solve various puzzles they encounter in order to protect the slime village from the mutant slimes.(No Background Music)",
+              "play_game": "Video",
+              "play_link": "https://youtu.be/qgKC1SjifoE",
+              "github": "Github",
+              "github_link": "https://github.com/Umamii13"
+            },
+            {
+              "name": "Super Slime Project",
+              "video": "superslime-gameplay.mp4",
+              "description": "My first 2D side-scrolling game, players take on the role of a more powerful slime than usual who will travel in search of treasure and fight against an evil knight who will stand in his way.(No Background Music)",
+              "play_game": "Video",
+              "play_link": "https://youtu.be/Ludzdejy0FQ",
+              "github": "Github Repo",
+              "github_link": "https://github.com/Umamii13/SuperSlime"
             }
           ]
         }
