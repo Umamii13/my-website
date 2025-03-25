@@ -1,87 +1,119 @@
 
-    {
-      "title":"เว็บไซต์ของพุฒิเมธ",
-        "header": {
-          "logo": "พุฒิเมธ ผิวงาม",
-          "menu": {
-            "home": "หน้าหลัก",
-            "aboutme": "เกี่ยวกับฉัน",
-            "projects": "ผลงาน"
-          }
-        },
-        "home": {
-          "welcome": "Hi, Welcome to My Website",
-          "role": "I'm a Unity Game Programmer",
-          "description": "I'm interested in game development, and I have experience with C# and Unity. I also have interest in programming, and I'm committed to learning to up my skills, whether in game development or others area.",
-          "contact": "Contact"
-        },
-        "about_me": {
-          "title": "About Me",
-          "tabs": {
-            "general": "General",
-            "education": "Education",
-            "skills": "Skills",
-            "language": "Language"
-          },
-          "general": {
-            "name": "Puttimet Phiwngam",
-            "age": "Age: 21",
-            "gender": "Gender: Male",
-            "dob": "Date Of Birth: 20/02/2004",
-            "nationality": "Nationality: Thai"
-          }
-        },
-        "education": {
-          "title": "Education",
-          "university": {
-            "name": "Rangsit University",
-            "years": "(2022 - Present)",
-            "faculty": "Faculty: Digital Innovation and Technology",
-            "major": "Major: Computer Games and Esports (3rd year)",
-            "gpa": "GPA: 3.63"
-          },
-          "high_school": {
-            "name": "Banpintho School",
-            "years": "(2019-2022)",
-            "stream": "I studied in grades 10-12 in the Science and Mathematics stream.",
-            "gpa": "GPA: 3.61"
-          }
-        },
-        "skills": {
-          "programming_languages": {
-            "title": "Programming Languages",
-            "common": "C# (common)",
-            "basic": "Python, HTML, CSS (basic)"
-          },
-          "software_skills": {
-            "title": "Software Skills",
-            "list": ["Unity", "Maya", "Adobe Photoshop"]
-          }
-        },
-        "language": {
-          "title": "Languages",
-          "list": {
-            "thai": "Thai (Native)",
-            "japanese": "Japanese (N5)",
-            "english": "English (Basic)"
-          }
-        },
-        "projects": {
-          "title": "Recent Projects",
-          "list": [
-            {
-              "name": "Metal Brake",
-              "description": "Designed and developed a game with my team. Systems in the game e.g. grid movement system, Character skill, Enemy AI system.",
-              "play_game": "Play Game",
-              "github": "Github Repo"
-            },
-            {
-              "name": "Carrot Bunny",
-              "description": "Take on the role of rabbits competing to collect carrots falling from the sky.",
-              "play_game": "Play Game",
-              "github": "Github Repo"
-            }
-          ]
-        }
+{
+  "title":"เว็บไซต์ของพุฒิเมธ",
+  "header": {
+    "logo": "พุฒิเมธ ผิวงาม",
+    "menu": {
+      "home": "หน้าหลัก",
+      "aboutme": "เกี่ยวกับฉัน",
+      "projects": "ผลงาน"
+    }
+  },
+  "home": {
+    "welcome": "ยินดีต้อนรับสู่เว็บไซต์ของฉัน",
+    "role": "ฉันเป็น Unity Game Programmer",
+    "description": "ฉันสนใจการพัฒนาเกมและมีประสบการณ์ในการใช้ C# และ Unity นอกจากนี้ ฉันยังสนใจการเขียนโปรแกรมและมุ่งมั่นที่จะเรียนรู้เพื่อเพิ่มทักษะ ไม่ว่าจะเป็นการพัฒนาเกมหรือด้านอื่นๆ",
+    "contact": "ส่งข้อความ"
+  },
+  "aboutme": {
+    "title": "เกี่ยวกับฉัน",
+    "tabs": {
+      "general": "ข้อมูลทั่วไป",
+      "education": "การศึกษา",
+      "skills": "ทักษะ",
+      "language": "ภาษา"
+    },
+    "general": {
+      "name": "พุฒิเมธ ผิวงาม",
+      "age": "อายุ: 21",
+      "gender": "เพศ: ชาย",
+      "birth": "เกิดวันที่: 20/02/2547",
+      "nationality": "สัญชาติ: ไทย"
+    },
+    "education": {
+      "university": {
+        "name": "มหาวิทยาลัยรังสิต",
+        "years": "(2565 - ปัจจุบัน)",
+        "faculty": "วิทยาลัยนวัตกรรมดิจิทัลเทคโนโลยี",
+        "major": "สาขา: คอมพิวเตอร์เกมและอีสปอร์ต (ปี 3)",
+        "gpa": "เกรดเฉลี่ยปัจจุบัน: 3.63"
+      },
+      "high_school": {
+        "name": "โรงเรียนบ้านพิณโท",
+        "years": "(2562-2565)",
+        "stream": "ฉันเรียนชั้นมัธยมศึกษาตอนปลายในสายการเรียน วิทย์-คณิต",
+        "gpa": "เกรดเฉลี่ย: 3.61"
       }
-      
+    },
+    "skills": {
+      "programming_languages": {
+        "title": "Programming Languages",
+        "common": "C# (ระดับปานกลาง)",
+        "basic": "Python, HTML, CSS (ระดับเบื้องต้น)"
+      },
+      "software_skills": {
+        "title": "Software Skills",
+        "list": ["Unity", "Maya", "Adobe Photoshop"]
+      }
+    },
+    "language": {
+      "title": "ภาษาที่ใช้ได้",
+      "list": {
+        "thai": "Thai (ภาษาแม่)",
+        "japan": "Japanese (ระดับ JLPT N5)",
+        "english": "English (เบื้องต้น)"
+      }
+    }
+  },
+  "projects": {
+    "title": "ผลงานที่ทำ",
+    "list": [
+      {
+        "name": "Metal Brake",
+        "video": "metalbrake-gameplay.mp4",
+        "description": "ออกแบบและพัฒนาเกมร่วมกับทีมของฉัน ฉันรับผิดชอบในการเขียนโค้ดทั้งหมดในเกม ระบบต่างๆในเกม เช่น ระบบการเคลื่อนที่แบบตาราง ทักษะตัวละคร ระบบ AI ศัตรู เป็นต้น",
+        "play_game": "เล่นเกม",
+        "play_link": "https://umamii13.itch.io/metalbrake",
+        "github": "โปรเจค กิตฮับ",
+        "github_link": "https://github.com/Umamii13/GameProject_2_MatalBrake"
+      },
+      {
+        "name": "Carrot Bunny",
+        "video": "carrotbunny-gameplay.mp4",
+        "description": "เกมนี้เป็นเกมผู้เล่นหลายคนเกมแรกของฉัน ฉันทำเกมนี้ทั้งหมดคนเดียวโดยใช้ asset ของ unity มาช่วยในส่วนของฉากและสิ่งของที่อยู่ในฉาก",
+        "play_game": "เล่นเกม",
+        "play_link": "https://umamii13.itch.io/carrotbunny",
+        "github": "โปรเจค กิตฮับ",
+        "github_link": "https://github.com/Umamii13/CarrotBunny_Project"
+      },
+      {
+        "name": "Asmost Fly",
+        "video": "asmostfly-gameplay.mp4",
+        "description": "เป็นเกมที่ฉันทำคนเดียวและใช้เวลาทำใน 1 อาทิตย์เป็นเกมง่ายๆบังคับเครื่องบินเพื่อหลบลูกอุกบาต",
+        "play_game": "เล่นเกม",
+        "play_link": "https://umamii13.itch.io/asmostfly",
+        "github": "โปรเจค กิตฮับ",
+        "github_link": "https://github.com/Umamii13/AsmostFly"
+      },
+      {
+        "name": "Slime Adventure Project",
+        "video": "slimeadventure-gameplay.mp4",
+        "description": "เกมปริศนาเลื่อนด้านข้างแบบ 2 มิติ ที่ผู้เล่นจะสวมบทบาทเป็นสไลม์ที่ต้องแก้ปริศนาต่างๆที่พวกเขาพบ เพื่อปกป้องหมู่บ้านสไลม์จากสไลม์กลายพันธุ์ (ไม่มีเพลงประกอบ)",
+        "play_game": "ดูวิดีโอ",
+        "play_link": "https://youtu.be/qgKC1SjifoE",
+        "github": "กิตฮับ",
+        "github_link": "https://github.com/Umamii13"
+      },
+      {
+        "name": "Super Slime Project",
+        "video": "superslime-gameplay.mp4",
+        "description": "เกมเลื่อนด้านข้างแบบ 2 มิติเกมแรกของฉัน ผู้เล่นจะสวมบทบาทเป็นสไลม์ที่ทรงพลังกว่าปกติ ซึ่งจะต้องเดินทางเพื่อค้นหาสมบัติและต่อสู้กับอัศวินชั่วร้ายที่จะมาขัดขวางเขา (ไม่มีเพลงประกอบ)",
+        "play_game": "ดูวิดีโอ",
+        "play_link": "https://youtu.be/Ludzdejy0FQ",
+        "github": "โปรเจค กิตฮับ",
+        "github_link": "https://github.com/Umamii13/SuperSlime"
+      }
+    ]
+  }
+}
+
