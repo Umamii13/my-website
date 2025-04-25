@@ -112,6 +112,13 @@
         "play_link": "https://youtu.be/Ludzdejy0FQ",
         "github": "โปรเจค กิตฮับ",
         "github_link": "https://github.com/Umamii13/SuperSlime"
+      },
+      {
+        "name": "MathX mini",
+        "video": "superslime-gameplay.mp4",
+        "description": " เป็นเกมที่รวมมินิเกมเกี่ยวกับคณิตศาตร์เอาไว้ ไม่ว่าจะเป็นการแก้โจทย์คณิตศาตร์ การจับคู่รูปทรงเลขาคณิต หรือการนับจำนวนสิ่งของ ",
+        "github": "โปรดรอติดตาม....",
+        "github_link": "https://github.com/Umamii13/MathXmini.git"
       }
     ]
   }

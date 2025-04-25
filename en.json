@@ -112,6 +112,13 @@
               "play_link": "https://youtu.be/Ludzdejy0FQ",
               "github": "Github Repo",
               "github_link": "https://github.com/Umamii13/SuperSlime"
+            },
+            {
+              "name": "MathX mini",
+              "video": "superslime-gameplay.mp4",
+              "description": " It is a game that combines math mini-games, such as solving math problems, matching geometric shapes, or counting objects.",
+              "github": "Coming soon....",
+              "github_link": "https://github.com/Umamii13/MathXmini"
             }
           ]
         }
