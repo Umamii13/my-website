@@ -117,6 +117,8 @@
         "name": "MathX mini",
         "video": "MathXmini-video.mp4",
         "description": " เป็นเกมที่รวมมินิเกมเกี่ยวกับคณิตศาตร์เอาไว้ ไม่ว่าจะเป็นการแก้โจทย์คณิตศาตร์ การจับคู่รูปทรงเลขาคณิต หรือการนับจำนวนสิ่งของ ",
+        "play_game": "",
+        "play_link": "",
         "github": "โปรดรอติดตาม....",
         "github_link": "https://github.com/Umamii13/MathXmini.git"
       }
