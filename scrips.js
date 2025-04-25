@@ -66,6 +66,13 @@ document.addEventListener("DOMContentLoaded", function () {
           <a href="${project.github_link}" class="btn" target="_blank">${project.github}</a>
           </div>
         `;
+        if (project.play_link && project.play_game) {
+          html += `<a href="${project.play_link}" class="btn" target="_blank">${project.play_game}</a>`;
+        }
+        
+        if (project.github_link && project.github) {
+          html += `<a href="${project.github_link}" class="btn" target="_blank">${project.github}</a>`;
+        }
 
         container.appendChild(div);
       })
