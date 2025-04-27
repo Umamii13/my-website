@@ -117,9 +117,9 @@
               "name": "MathX mini",
               "video": "MathXmini-video.mp4",
               "description": " It is a game that combines math mini-games, such as solving math problems, matching geometric shapes, or counting objects.",
-              "play_game": "",
-              "play_link": "",
-              "github": "Coming soon....",
+              "play_game": "Play Game",
+              "play_link": "https://umamii13.itch.io/mathxmini",
+              "github": "Github Repo",
               "github_link": "https://github.com/Umamii13/MathXmini"
             }
           ]
