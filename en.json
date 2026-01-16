@@ -36,7 +36,7 @@
               "years": "(2022 - Present)",
               "faculty": "Faculty: Digital Innovation and Technology",
               "major": "Major: Computer Games and Esports (3rd year)",
-              "gpa": "GPA: 3.71"
+              "gpa": "GPA: 3.73"
             },
             "high_school": {
               "name": "Banpintho School",
@@ -60,7 +60,7 @@
             "title": "Languages",
             "list": {
               "thai": "Thai (Native)",
-              "japan": "Japanese (N5)",
+              "japan": "Japanese (N4)",
               "english": "English (Basic)"
             }
           }
@@ -121,6 +121,15 @@
               "play_link": "https://umamii13.itch.io/mathxmini",
               "github": "Github Repo",
               "github_link": "https://github.com/Umamii13/MathXmini"
+            },
+            {
+              "name": "Time To Rich",
+              "video": "TimetoRich-tailler.mp4",
+              "description": " It is a game that combines math mini-games.",
+              "play_game": "Play Game",
+              "play_link": "https://umamii13.itch.io/mathxmini",
+              "github": "",
+              "github_link": ""
             }
           ]
         }
