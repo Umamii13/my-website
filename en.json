@@ -33,9 +33,9 @@
           "education": {
             "university": {
               "name": "Rangsit University",
-              "years": "(2022 - Present)",
+              "years": "(2022 - 2026)",
               "faculty": "Faculty: Digital Innovation and Technology",
-              "major": "Major: Computer Games and Esports (3rd year)",
+              "major": "Major: Computer Games and Esports",
               "gpa": "GPA: 3.73"
             },
             "high_school": {
@@ -69,30 +69,48 @@
           "title": "Recent Projects",
           "list": [
             {
+              "name": "Time To Rich",
+              "video": "TimetoRich-tailler.mp4",
+              "description": "A life and financial simulation game where players manage daily choices, resources, and investments to build their path to wealth.",
+              "play_game": "PlayGame",
+              "play_link": "https://umamii13.itch.io/mathxmini",
+              "github": "",
+              "github_link": ""
+            },
+            {
+              "name": "MathX mini",
+              "video": "MathXmini-video.mp4",
+              "description": " It is a game that combines math mini-games.",
+              "play_game": "PlayGame",
+              "play_link": "https://umamii13.itch.io/mathxmini",
+              "github": "GithuRepo",
+              "github_link": "https://github.com/Umamii13/MathXmini"
+            },
+            {
               "name": "Metal Brake",
               "video": "metalbrake-gameplay.mp4",
               "description": "Designed and developed a game with my team. Systems in the game e.g. grid movement system, Character skill, Enemy AI system.",
-              "play_game": "Play Game",
+              "play_game": "PlayGame",
               "play_link": "https://umamii13.itch.io/metalbrake",
-              "github": "Github Repo",
+              "github": "GithubRepo",
               "github_link": "https://github.com/Umamii13/GameProject_2_MatalBrake"
             },
             {
               "name": "Carrot Bunny",
               "video": "carrotbunny-gameplay.mp4",
               "description": "Take on the role of rabbits competing to collect carrots falling from the sky.",
-              "play_game": "Play Game",
+              "play_game": "PlayGame",
               "play_link": "https://umamii13.itch.io/carrotbunny",
-              "github": "Github Repo",
+              "github": "GithubRepo",
               "github_link": "https://github.com/Umamii13/CarrotBunny_Project"
             },
             {
               "name": "Asmost Fly",
               "video": "asmostfly-gameplay.mp4",
               "description": "An Endless Game is contol a plan up and down to  avoid meteor, I'm solo developer and used SunoAi for generate music in game ",
-              "play_game": "Play Game",
+              "play_game": "PlayGame",
               "play_link": "https://umamii13.itch.io/asmostfly",
-              "github": "Github Repo",
+              "github": "GithubRepo",
               "github_link": "https://github.com/Umamii13/AsmostFly"
             },
             {
@@ -101,8 +119,8 @@
               "description": "A 2D side-scrolling puzzle game in which players take on the role of a slime to solve various puzzles they encounter in order to protect the slime village from the mutant slimes.(No Background Music)",
               "play_game": "Video",
               "play_link": "https://youtu.be/qgKC1SjifoE",
-              "github": "Github",
-              "github_link": "https://github.com/Umamii13"
+              "github": "",
+              "github_link": ""
             },
             {
               "name": "Super Slime Project",
@@ -110,26 +128,8 @@
               "description": "My first 2D side-scrolling game, players take on the role of a more powerful slime than usual who will travel in search of treasure and fight against an evil knight who will stand in his way.(No Background Music)",
               "play_game": "Video",
               "play_link": "https://youtu.be/Ludzdejy0FQ",
-              "github": "Github Repo",
+              "github": "GithubRepo",
               "github_link": "https://github.com/Umamii13/SuperSlime"
-            },
-            {
-              "name": "MathX mini",
-              "video": "MathXmini-video.mp4",
-              "description": " It is a game that combines math mini-games.",
-              "play_game": "Play Game",
-              "play_link": "https://umamii13.itch.io/mathxmini",
-              "github": "Github Repo",
-              "github_link": "https://github.com/Umamii13/MathXmini"
-            },
-            {
-              "name": "Time To Rich",
-              "video": "TimetoRich-tailler.mp4",
-              "description": " It is a game that combines math mini-games.",
-              "play_game": "Play Game",
-              "play_link": "https://umamii13.itch.io/mathxmini",
-              "github": "",
-              "github_link": ""
             }
           ]
         }

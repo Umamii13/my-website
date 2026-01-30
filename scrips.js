@@ -22,10 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("tab-education").textContent = data.aboutme.tabs.education;
         document.getElementById("tab-skills").textContent = data.aboutme.tabs.skills;
         document.getElementById("tab-language").textContent = data.aboutme.tabs.language;
-        //projecttappage
-        document.getElementById("project-tab-game").textContent = data.project.tabs.game
-        document.getElementById("project-tab-uniy").textContent = data.project.tabs.unity;
-        document.getElementById("project-tab-other").textContent = data.project.tabs.other;
         //general
         document.getElementById("name").textContent = data.aboutme.general.name;
         document.getElementById("age").textContent = data.aboutme.general.age;
@@ -53,10 +49,9 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("th").textContent = data.aboutme.language.list.thai;
         document.getElementById("jp").textContent = data.aboutme.language.list.japan;
         document.getElementById("en").textContent = data.aboutme.language.list.english;
-        
-        
+        //
         document.getElementById("projects-head").textContent = data.projects.title;
-        let container = document.getElementById("game-projects-container");
+        let container = document.getElementById("projects-container");
         container.innerHTML = "";
         data.projects.list.forEach(project => {
         let div = document.createElement("div");
@@ -116,6 +111,7 @@ function openTab(event, tabName) {
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".tab-link").click();
 });
+
 
   /*video play control */
   function Setupvideocontor() {

@@ -33,10 +33,10 @@
     "education": {
       "university": {
         "name": "มหาวิทยาลัยรังสิต",
-        "years": "(2565 - ปัจจุบัน)",
+        "years": "(2565 - 2569)",
         "faculty": "วิทยาลัยนวัตกรรมดิจิทัลเทคโนโลยี",
-        "major": "สาขา: คอมพิวเตอร์เกมและอีสปอร์ต (ปี 3)",
-        "gpa": "เกรดเฉลี่ยปัจจุบัน: 3.73"
+        "major": "สาขา: คอมพิวเตอร์เกมและอีสปอร์ต",
+        "gpa": "เกรดเฉลี่ย: 3.73"
       },
       "high_school": {
         "name": "โรงเรียนบ้านพิณโท",
@@ -59,15 +59,33 @@
     "language": {
       "title": "ภาษาที่ใช้ได้",
       "list": {
-        "thai": "Thai (ภาษาแม่)",
-        "japan": "Japanese (ระดับ JLPT N5)",
-        "english": "English (เบื้องต้น)"
+        "thai": "ไทย (ภาษาหลัก)",
+        "japan": "ญี่ปุ่น (ระดับ JLPT N4)",
+        "english": "อังกฤษ (เบื้องต้น)"
       }
     }
   },
   "projects": {
     "title": "ผลงานที่ทำ",
     "list": [
+      {
+        "name": "Time To Rich",
+        "video": "TimetoRich-tailler.mp4",
+        "description": "เกมแนวจำลองการใช้ชีวิตและการเงิน ที่ผู้เล่นต้องบริหารทรัพยากรและตัดสินใจเพื่อสร้างเส้นทางสู่ความมั่งคั่ง",
+        "play_game": "เล่นเกม",
+        "play_link": "https://umamii13.itch.io/time-to-rich",
+        "github": "",
+        "github_link": ""
+      },
+      {
+        "name": "MathX mini",
+        "video": "MathXmini-video.mp4",
+        "description": " เป็นเกมที่รวมมินิเกมเกี่ยวกับคณิตศาตร์เอาไว้",
+        "play_game": "เล่นเกม",
+        "play_link": "https://umamii13.itch.io/mathxmini",
+        "github": "โปรเจค กิตฮับ",
+        "github_link": "https://github.com/Umamii13/MathXmini.git"
+      },
       {
         "name": "Metal Brake",
         "video": "metalbrake-gameplay.mp4",
@@ -101,8 +119,8 @@
         "description": "เกมปริศนาเลื่อนด้านข้างแบบ 2 มิติ ที่ผู้เล่นจะสวมบทบาทเป็นสไลม์ที่ต้องแก้ปริศนาต่างๆที่พวกเขาพบ เพื่อปกป้องหมู่บ้านสไลม์จากสไลม์กลายพันธุ์ (ไม่มีเพลงประกอบ)",
         "play_game": "ดูวิดีโอ",
         "play_link": "https://youtu.be/qgKC1SjifoE",
-        "github": "กิตฮับ",
-        "github_link": "https://github.com/Umamii13"
+        "github": "",
+        "github_link": ""
       },
       {
         "name": "Super Slime Project",
@@ -112,16 +130,7 @@
         "play_link": "https://youtu.be/Ludzdejy0FQ",
         "github": "โปรเจค กิตฮับ",
         "github_link": "https://github.com/Umamii13/SuperSlime"
-      },
-      {
-        "name": "MathX mini",
-        "video": "MathXmini-video.mp4",
-        "description": " เป็นเกมที่รวมมินิเกมเกี่ยวกับคณิตศาตร์เอาไว้",
-        "play_game": "เล่นเกม",
-        "play_link": "https://umamii13.itch.io/mathxmini",
-        "github": "โปรเจค กิตฮับ",
-        "github_link": "https://github.com/Umamii13/MathXmini.git"
-      }
+      }      
     ]
   }
 }
