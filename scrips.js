@@ -22,6 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("tab-education").textContent = data.aboutme.tabs.education;
         document.getElementById("tab-skills").textContent = data.aboutme.tabs.skills;
         document.getElementById("tab-language").textContent = data.aboutme.tabs.language;
+        //projecttappage
+        document.getElementById("project-tab-game").textContent = data.project.tabs.game
+        document.getElementById("project-tab-uniy").textContent = data.project.tabs.unity;
+        document.getElementById("project-tab-other").textContent = data.project.tabs.other;
         //general
         document.getElementById("name").textContent = data.aboutme.general.name;
         document.getElementById("age").textContent = data.aboutme.general.age;

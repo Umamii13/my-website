@@ -67,6 +67,11 @@
         },
         "projects": {
           "title": "Recent Projects",
+          "tabs": {
+            "game": "game",
+            "unity": "unity",
+            "other": "other"
+          },
           "list": [
             {
               "name": "Time To Rich",
