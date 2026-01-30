@@ -283,22 +283,6 @@ section{
 }
 
 /*project*/
-.project .project-tab-link {
-  padding: 10px 20px;
-  background: none;
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--text-color);
-  border-bottom: 3px solid transparent;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.project .project-tab-link:hover, .tab-link.active {
-  border-bottom: 3px solid var(--main-color);
-  color: var(--main-color);
-} 
-
 .projects .section-title{
   font-size: 5rem;
   font-weight: 700;
