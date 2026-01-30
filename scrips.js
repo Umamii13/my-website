@@ -50,28 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("jp").textContent = data.aboutme.language.list.japan;
         document.getElementById("en").textContent = data.aboutme.language.list.english;
         
-        //project
-        function openTab(event, tabName) {
-        let i, tabContent, tabLinks;
-
-        tabContent = document.getElementsByClassName("project-tab-content");
-        for (i = 0; i < tabContent.length; i++) {
-        tabContent[i].style.display = "none";
-        }
-
-        tabLinks = document.getElementsByClassName("project-tab-link");
-        for (i = 0; i < tabLinks.length; i++) {
-        tabLinks[i].classList.remove("active");
-        }
-
-        document.getElementById(tabName).style.display = "block";
-        event.currentTarget.classList.add("active");
-        }
-
-        document.addEventListener("DOMContentLoaded", () => {
-        document.querySelector(".project-tab-link").click();
-        });
-
+        
         document.getElementById("projects-head").textContent = data.projects.title;
         let container = document.getElementById("game-projects-container");
         container.innerHTML = "";
@@ -133,6 +112,28 @@ function openTab(event, tabName) {
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".tab-link").click();
 });
+
+//project
+        function openTab(event, tabName) {
+        let i, tabContent, tabLinks;
+
+        tabContent = document.getElementsByClassName("project-tab-content");
+        for (i = 0; i < tabContent.length; i++) {
+        tabContent[i].style.display = "none";
+        }
+
+        tabLinks = document.getElementsByClassName("project-tab-link");
+        for (i = 0; i < tabLinks.length; i++) {
+        tabLinks[i].classList.remove("active");
+        }
+
+        document.getElementById(tabName).style.display = "block";
+        event.currentTarget.classList.add("active");
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+        document.querySelector(".project-tab-link").click();
+        });
 
 
   /*video play control */
