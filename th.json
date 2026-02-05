@@ -67,7 +67,12 @@
   },
   "projects": {
     "title": "ผลงานที่ทำ",
-    "list": [
+    "tabs": {
+            "game": "game",
+            "unity": "unity",
+            "other": "อื่นๆ"
+          },
+    "gamelist": [
       {
         "name": "Time To Rich",
         "video": "TimetoRich-tailler.mp4",
@@ -131,6 +136,26 @@
         "github": "โปรเจค กิตฮับ",
         "github_link": "https://github.com/Umamii13/SuperSlime"
       }      
+    ],
+    "unitylist":[{
+        "name": "Super Slime Project",
+        "video": "superslime-gameplay.mp4",
+        "description": "เกมเลื่อนด้านข้างแบบ 2 มิติเกมแรกของฉัน ผู้เล่นจะสวมบทบาทเป็นสไลม์ที่ทรงพลังกว่าปกติ ซึ่งจะต้องเดินทางเพื่อค้นหาสมบัติและต่อสู้กับอัศวินชั่วร้ายที่จะมาขัดขวางเขา (ไม่มีเพลงประกอบ)",
+        "play_game": "ดูวิดีโอ",
+        "play_link": "https://youtu.be/Ludzdejy0FQ",
+        "github": "โปรเจค กิตฮับ",
+        "github_link": "https://github.com/Umamii13/SuperSlime"
+      }   
+    ],
+    "otherlist":[{
+        "name": "Super Slime Project",
+        "video": "superslime-gameplay.mp4",
+        "description": "เกมเลื่อนด้านข้างแบบ 2 มิติเกมแรกของฉัน ผู้เล่นจะสวมบทบาทเป็นสไลม์ที่ทรงพลังกว่าปกติ ซึ่งจะต้องเดินทางเพื่อค้นหาสมบัติและต่อสู้กับอัศวินชั่วร้ายที่จะมาขัดขวางเขา (ไม่มีเพลงประกอบ)",
+        "play_game": "ดูวิดีโอ",
+        "play_link": "https://youtu.be/Ludzdejy0FQ",
+        "github": "โปรเจค กิตฮับ",
+        "github_link": "https://github.com/Umamii13/SuperSlime"
+      }   
     ]
   }
 }
