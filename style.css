@@ -318,8 +318,11 @@ section{
   text-align: left;
   margin-top: 1.5rem;
 }
+.project-tab-content {
+  display: none;
+}
 
-.projects .project-tab-content .project-tab-content.active {
+.projects .project-tab-content.active {
   display: block;
 }
 
