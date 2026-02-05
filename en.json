@@ -67,7 +67,12 @@
         },
         "projects": {
           "title": "Recent Projects",
-          "list": [
+          "tabs": {
+            "game": "game",
+            "unity": "unity",
+            "other": "other"
+          },
+          "gamelist": [
             {
               "name": "Time To Rich",
               "video": "TimetoRich-tailler.mp4",
@@ -123,6 +128,26 @@
               "github_link": ""
             },
             {
+              "name": "Super Slime Project",
+              "video": "superslime-gameplay.mp4",
+              "description": "My first 2D side-scrolling game, players take on the role of a more powerful slime than usual who will travel in search of treasure and fight against an evil knight who will stand in his way.(No Background Music)",
+              "play_game": "Video",
+              "play_link": "https://youtu.be/Ludzdejy0FQ",
+              "github": "GithubRepo",
+              "github_link": "https://github.com/Umamii13/SuperSlime"
+            }
+          ],
+          "unitylist":[{
+              "name": "Super Slime Project",
+              "video": "superslime-gameplay.mp4",
+              "description": "My first 2D side-scrolling game, players take on the role of a more powerful slime than usual who will travel in search of treasure and fight against an evil knight who will stand in his way.(No Background Music)",
+              "play_game": "Video",
+              "play_link": "https://youtu.be/Ludzdejy0FQ",
+              "github": "GithubRepo",
+              "github_link": "https://github.com/Umamii13/SuperSlime"
+            }
+          ],
+          "otherlist":[{
               "name": "Super Slime Project",
               "video": "superslime-gameplay.mp4",
               "description": "My first 2D side-scrolling game, players take on the role of a more powerful slime than usual who will travel in search of treasure and fight against an evil knight who will stand in his way.(No Background Music)",

@@ -49,11 +49,68 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("th").textContent = data.aboutme.language.list.thai;
         document.getElementById("jp").textContent = data.aboutme.language.list.japan;
         document.getElementById("en").textContent = data.aboutme.language.list.english;
-        //
+        
+        //project
         document.getElementById("projects-head").textContent = data.projects.title;
-        let container = document.getElementById("projects-container");
-        container.innerHTML = "";
-        data.projects.list.forEach(project => {
+        document.getElementById("project-tab-game").textContent = data.projects.tabs.game;
+        document.getElementById("project-tab-unity").textContent = data.projects.tabs.unity;
+        document.getElementById("project-tab-other").textContent = data.projects.tabs.other;
+        //game
+        let gamecontainer = document.getElementById("projects-game-container");
+        gamecontainer.innerHTML = "";
+        data.projects.gamelist.forEach(project => {
+        let div = document.createElement("div");
+        div.classList.add("project-card");
+
+        let html = `
+          <h3>${project.name}</h3>
+          <video class="video" src="${project.video}" muted loop></video>
+          <p>${project.description}</p>
+          <div class="btn-group"> 
+        `;
+        if (project.play_link && project.play_game) {
+          html += `<a href="${project.play_link}" class="btn" target="_blank">${project.play_game}</a>`;
+        }
+        
+        if (project.github_link && project.github) {
+          html += `<a href="${project.github_link}" class="btn" target="_blank">${project.github}</a>`;
+        }
+        
+        html += '</div>'
+        div.innerHTML = html;
+
+        container.appendChild(div);
+      })
+      //unity
+        let unitycontainer = document.getElementById("projects-unity-container");
+        unitycontainer.innerHTML = "";
+        data.projects.unitylist.forEach(project => {
+        let div = document.createElement("div");
+        div.classList.add("project-card");
+
+        let html = `
+          <h3>${project.name}</h3>
+          <video class="video" src="${project.video}" muted loop></video>
+          <p>${project.description}</p>
+          <div class="btn-group"> 
+        `;
+        if (project.play_link && project.play_game) {
+          html += `<a href="${project.play_link}" class="btn" target="_blank">${project.play_game}</a>`;
+        }
+        
+        if (project.github_link && project.github) {
+          html += `<a href="${project.github_link}" class="btn" target="_blank">${project.github}</a>`;
+        }
+        
+        html += '</div>'
+        div.innerHTML = html;
+
+        container.appendChild(div);
+      })
+      //other
+        let othercontainer = document.getElementById("projects-other-container");
+        othercontainer.innerHTML = "";
+        data.projects.otherlist.forEach(project => {
         let div = document.createElement("div");
         div.classList.add("project-card");
 
@@ -111,7 +168,26 @@ function openTab(event, tabName) {
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".tab-link").click();
 });
+function openprojectTab(event, tabName) {
+  let i, projecttabContent, projecttabLinks;
 
+  projecttabContent = document.getElementsByClassName("project-tab-content");
+  for (i = 0; i < projecttabContent.length; i++) {
+    projecttabContent[i].style.display = "none";
+  }
+
+  projecttabLinks = document.getElementsByClassName("project-tab-link");
+  for (i = 0; i < projecttabLinks.length; i++) {
+    projecttabLinks[i].classList.remove("active");
+  }
+
+  document.getElementById(tabName).style.display = "block";
+  event.currentTarget.classList.add("active");
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelector(".project-tab-link").click();
+});
 
   /*video play control */
   function Setupvideocontor() {
