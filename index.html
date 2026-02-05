@@ -111,11 +111,26 @@
             
           </section>
           
-
-        <section class="projects" id="projects">
+        <section class = "projects" id = "projects">
+            
+            <div class = "project-contents">
+                <h2 id="projects-head" ></h2>
+                <div class = "project-tabs">
+                    <button class="project-tab-link active" onclick="openTab(event, 'game')" id="project-tab-game"></button>
+                    <button class="project-tab-link" onclick="openTab(event, 'unity')" id="project-tab-unity"></button>
+                    <button class="project-tab-link" onclick="openTab(event, 'other')" id="project-tab-other"></button> 
+                </div>
+                <div class = project-tab-content>
+                    <div id = "game" class = project-tab-content>
+                        <div class="project-grid" id="projects-container"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="projects" id="projects">
             <h2 class="section-title" id="projects-head" ></h2>
             <div class="project-grid" id="projects-container"></div>
-        </section>
+        </section> -->
 
         <script src="scrips.js"></script>
     </body>
