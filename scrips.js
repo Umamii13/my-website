@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
         html += '</div>'
         div.innerHTML = html;
 
-        container.appendChild(div);
+        gamecontainer.appendChild(div);
       })
       //unity
         let unitycontainer = document.getElementById("projects-unity-container");
@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
         html += '</div>'
         div.innerHTML = html;
 
-        container.appendChild(div);
+        uniycontainer.appendChild(div);
       })
       //other
         let othercontainer = document.getElementById("projects-other-container");
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
         html += '</div>'
         div.innerHTML = html;
 
-        container.appendChild(div);
+        othercontainer.appendChild(div);
       })
       Setupvideocontor();
       })
