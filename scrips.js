@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
         html += '</div>'
         div.innerHTML = html;
 
-        uniycontainer.appendChild(div);
+        unitycontainer.appendChild(div);
       })
       //other
         let othercontainer = document.getElementById("projects-other-container");
