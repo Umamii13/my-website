@@ -111,7 +111,25 @@
             
           </section>
           
-        <section class = "projects" id = "projects">
+        <section class="projects" id="projects">
+        <h2 id="projects-head">My Projects</h2>
+        <div class="project-tabs">
+    <button class="project-tab-link active" onclick="openprojectTab(event, 'game')" id="project-tab-game">Game</button>
+    <button class="project-tab-link" onclick="openprojectTab(event, 'unity')" id="project-tab-unity">Unity</button>
+    <button class="project-tab-link" onclick="openprojectTab(event, 'other')" id="project-tab-other">Other</button>
+    </div>
+
+  <div class="project-tab-content" id="game">
+    <div class="project-grid" id="projects-game-container"></div>
+  </div>
+  <div class="project-tab-content" id="unity">
+    <div class="project-grid" id="projects-unity-container"></div>
+  </div>
+  <div class="project-tab-content" id="other">
+    <div class="project-grid" id="projects-other-container"></div>
+  </div>
+</section>
+        <!--<section class = "projects" id = "projects">
              <h2 id="projects-head" ></h2>            
             <div class = "project-tabs">
                 <button class="project-tab-link active" onclick="openprojectTab(event, 'game')" id="project-tab-game"></button>
@@ -128,11 +146,7 @@
                     <div class="project-grid" id="projects-other-container"></div>
                 </div>
             </div>
-        </section>
-        <!-- <section class="projects" id="projects">
-            <h2 class="section-title" id="projects-head" ></h2>
-            <div class="project-grid" id="projects-container"></div>
-        </section> -->
+        </section>-->
 
         <script src="scrips.js"></script>
     </body>

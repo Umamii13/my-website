@@ -319,13 +319,11 @@ section{
   margin-top: 1.5rem;
 }
 .project-tab-content {
-  display: none;
+  display: none; /* ซ่อนทุก tab ก่อน */
 }
-
-.projects .project-tab-content.active {
-  display: block;
+.project-tab-content.active {
+  display: block; /* โชว์เฉพาะ tab ที่ active */
 }
-
 .project-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
