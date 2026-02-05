@@ -319,10 +319,10 @@ section{
   margin-top: 1.5rem;
 }
 .project-tab-content {
-  display: none; /* ซ่อนทุก tab ก่อน */
+  display: none;
 }
 .project-tab-content.active {
-  display: block; /* โชว์เฉพาะ tab ที่ active */
+  display: block;
 }
 .project-grid{
   display: grid;

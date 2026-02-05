@@ -169,25 +169,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".tab-link").click();
 });
 //projecttab
-/*function openprojectTab(event, tabName) {
-  let i, projecttabContent, projecttabLinks;
-
-  projecttabContent = document.getElementsByClassName("project-tab-content");
-  for (i = 0; i < projecttabContent.length; i++) {
-    projecttabContent[i].style.display = "none";
-  }
-
-  projecttabLinks = document.getElementsByClassName("project-tab-link");
-  for (i = 0; i < projecttabLinks.length; i++) {
-    projecttabLinks[i].classList.remove("active");
-  }
-  document.getElementById(tabName).style.display = "block";
-  event.currentTarget.classList.add("active");
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  document.querySelector(".project-tab-link").click();
-});*/
 function openprojectTab(event, tabName) {
   let projecttabContent = document.getElementsByClassName("project-tab-content");
   for (let i = 0; i < projecttabContent.length; i++) {
@@ -205,8 +186,7 @@ function openprojectTab(event, tabName) {
   event.currentTarget.classList.add("active");
 }
 
-// ให้ tab แรกโชว์ตอนโหลดหน้า
-document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".project-tab-link").click();
 });
   /*video play control */
