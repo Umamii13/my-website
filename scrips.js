@@ -176,13 +176,11 @@ function openprojectTab(event, tabName) {
   for (i = 0; i < projecttabContent.length; i++) {
     projecttabContent[i].style.display = "none";
   }
-  print("tapcontent" + projecttabContent);
 
   projecttabLinks = document.getElementsByClassName("project-tab-link");
   for (i = 0; i < projecttabLinks.length; i++) {
     projecttabLinks[i].classList.remove("active");
   }
-  print("taplink" + projecttabLinks);
   document.getElementById(tabName).style.display = "block";
   event.currentTarget.classList.add("active");
 }
