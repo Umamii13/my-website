@@ -68,7 +68,12 @@
         },
         "projects": {
           "title": "Recent Projects",
-          "list": [
+          "tabs": {
+            "game": "game",
+            "unity": "unity",
+            "other": "other"
+          },
+          "gamelist": [
             {
               "name": "Metal Brake",
               "description": "Designed and developed a game with my team. Systems in the game e.g. grid movement system, Character skill, Enemy AI system.",
@@ -76,6 +81,20 @@
               "github": "Github Repo"
             },
             {
+              "name": "Carrot Bunny",
+              "description": "Take on the role of rabbits competing to collect carrots falling from the sky.",
+              "play_game": "Play Game",
+              "github": "Github Repo"
+            }
+          ],
+          "unitylist":[{
+              "name": "Carrot Bunny",
+              "description": "Take on the role of rabbits competing to collect carrots falling from the sky.",
+              "play_game": "Play Game",
+              "github": "Github Repo"
+            }
+          ],
+          "otherlist":[{
               "name": "Carrot Bunny",
               "description": "Take on the role of rabbits competing to collect carrots falling from the sky.",
               "play_game": "Play Game",
