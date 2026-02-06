@@ -69,7 +69,6 @@
     "title": "ผลงานที่ทำ",
     "tabs": {
             "game": "game",
-            "unity": "unity",
             "other": "อื่นๆ"
           },
     "gamelist": [
@@ -137,26 +136,43 @@
         "github_link": "https://github.com/Umamii13/SuperSlime"
       }      
     ],
-    "unitylist":[{
-        "name": "Super Slime Project",
-        "video": "superslime-gameplay.mp4",
-        "description": "เกมเลื่อนด้านข้างแบบ 2 มิติเกมแรกของฉัน ผู้เล่นจะสวมบทบาทเป็นสไลม์ที่ทรงพลังกว่าปกติ ซึ่งจะต้องเดินทางเพื่อค้นหาสมบัติและต่อสู้กับอัศวินชั่วร้ายที่จะมาขัดขวางเขา (ไม่มีเพลงประกอบ)",
-        "play_game": "ดูวิดีโอ",
-        "play_link": "https://youtu.be/Ludzdejy0FQ",
-        "github": "โปรเจค กิตฮับ",
-        "github_link": "https://github.com/Umamii13/SuperSlime"
-      }   
-    ],
     "otherlist":[{
-        "name": "Super Slime Project",
-        "video": "superslime-gameplay.mp4",
-        "description": "เกมเลื่อนด้านข้างแบบ 2 มิติเกมแรกของฉัน ผู้เล่นจะสวมบทบาทเป็นสไลม์ที่ทรงพลังกว่าปกติ ซึ่งจะต้องเดินทางเพื่อค้นหาสมบัติและต่อสู้กับอัศวินชั่วร้ายที่จะมาขัดขวางเขา (ไม่มีเพลงประกอบ)",
-        "play_game": "ดูวิดีโอ",
-        "play_link": "https://youtu.be/Ludzdejy0FQ",
-        "github": "โปรเจค กิตฮับ",
-        "github_link": "https://github.com/Umamii13/SuperSlime"
-      }   
-    ]
+              "name": "Firework particle",
+              "video": "fireworkparticle.mp4",
+              "description": "this is a firework particle effect create with unity",
+              "play_game": "Video",
+              "play_link": "https://youtu.be/MrOgYcz-Pp8?si=klqkbn-QdocRWNYS",
+              "github": "",
+              "github_link": ""
+            },
+            {
+              "name": "Meteoer particle",
+              "video": "MeteoerParticle.mp4",
+              "description": "this is a particle effect create with unity",
+              "play_game": "Video",
+              "play_link": "https://youtu.be/ZaZ4w26X_fk?si=kGnoyNjLQBsTvPOB",
+              "github": "",
+              "github_link": ""
+            },
+            {
+              "name": "Basic Riging&Animation",
+              "video": "Animation.mp4",
+              "description": "this is a final project in 3D Animation class",
+              "play_game": "Video",
+              "play_link": "https://youtu.be/he5yfXsFz_8?si=zFpx3mdlrn_hadte",
+              "github": "",
+              "github_link": ""
+            },
+            {
+              "name": "Rabit model",
+              "video": "modelrabit.mp4",
+              "description": "this is a final project in 3D Modeling",
+              "play_game": "Video",
+              "play_link": "https://youtu.be/LGFgBiblhy8?si=Ln-MUvnHZfxsfO3L",
+              "github": "",
+              "github_link": ""
+            }
+          ]
   }
 }
 

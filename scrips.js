@@ -53,7 +53,6 @@ document.addEventListener("DOMContentLoaded", function () {
         //project
         document.getElementById("projects-head").textContent = data.projects.title;
         document.getElementById("project-tab-game").textContent = data.projects.tabs.game;
-        document.getElementById("project-tab-unity").textContent = data.projects.tabs.unity;
         document.getElementById("project-tab-other").textContent = data.projects.tabs.other;
         //game
         let gamecontainer = document.getElementById("projects-game-container");

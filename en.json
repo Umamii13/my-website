@@ -11,7 +11,7 @@
         },
         "home": {
           "welcome": "Hi, Welcome to My Website",
-          "role": "I'm a Unity Game Programmer",
+          "role": "I'm a Unity Game Developer",
           "description": "I'm interested in game development, and I have experience with C# and Unity. I also have interest in programming, and I'm committed to learning to up my skills, whether in game development or others area.",
           "contact": "Contact"
         },
@@ -69,7 +69,6 @@
           "title": "Recent Projects",
           "tabs": {
             "game": "game",
-            "unity": "unity",
             "other": "other"
           },
           "gamelist": [
@@ -137,24 +136,41 @@
               "github_link": "https://github.com/Umamii13/SuperSlime"
             }
           ],
-          "unitylist":[{
-              "name": "Super Slime Project",
-              "video": "superslime-gameplay.mp4",
-              "description": "My first 2D side-scrolling game, players take on the role of a more powerful slime than usual who will travel in search of treasure and fight against an evil knight who will stand in his way.(No Background Music)",
-              "play_game": "Video",
-              "play_link": "https://youtu.be/Ludzdejy0FQ",
-              "github": "GithubRepo",
-              "github_link": "https://github.com/Umamii13/SuperSlime"
-            }
-          ],
           "otherlist":[{
-              "name": "Super Slime Project",
-              "video": "superslime-gameplay.mp4",
-              "description": "My first 2D side-scrolling game, players take on the role of a more powerful slime than usual who will travel in search of treasure and fight against an evil knight who will stand in his way.(No Background Music)",
+              "name": "Firework particle",
+              "video": "fireworkparticle.mp4",
+              "description": "this is a firework particle effect create with unity",
               "play_game": "Video",
-              "play_link": "https://youtu.be/Ludzdejy0FQ",
-              "github": "GithubRepo",
-              "github_link": "https://github.com/Umamii13/SuperSlime"
+              "play_link": "https://youtu.be/MrOgYcz-Pp8?si=klqkbn-QdocRWNYS",
+              "github": "",
+              "github_link": ""
+            },
+            {
+              "name": "Meteoer particle",
+              "video": "MeteoerParticle.mp4",
+              "description": "this is a particle effect create with unity",
+              "play_game": "Video",
+              "play_link": "https://youtu.be/ZaZ4w26X_fk?si=kGnoyNjLQBsTvPOB",
+              "github": "",
+              "github_link": ""
+            },
+            {
+              "name": "Basic Riging&Animation",
+              "video": "Animation.mp4",
+              "description": "this is a final project in 3D Animation class",
+              "play_game": "Video",
+              "play_link": "https://youtu.be/he5yfXsFz_8?si=zFpx3mdlrn_hadte",
+              "github": "",
+              "github_link": ""
+            },
+            {
+              "name": "Rabit model",
+              "video": "modelrabit.mp4",
+              "description": "this is a final project in 3D Modeling",
+              "play_game": "Video",
+              "play_link": "https://youtu.be/LGFgBiblhy8?si=Ln-MUvnHZfxsfO3L",
+              "github": "",
+              "github_link": ""
             }
           ]
         }
