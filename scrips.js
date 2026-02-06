@@ -81,32 +81,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         gamecontainer.appendChild(div);
       })
-      //unity
-        let unitycontainer = document.getElementById("projects-unity-container");
-        unitycontainer.innerHTML = "";
-        data.projects.unitylist.forEach(project => {
-        let div = document.createElement("div");
-        div.classList.add("project-card");
-
-        let html = `
-          <h3>${project.name}</h3>
-          <video class="video" src="${project.video}" muted loop></video>
-          <p>${project.description}</p>
-          <div class="btn-group"> 
-        `;
-        if (project.play_link && project.play_game) {
-          html += `<a href="${project.play_link}" class="btn" target="_blank">${project.play_game}</a>`;
-        }
-        
-        if (project.github_link && project.github) {
-          html += `<a href="${project.github_link}" class="btn" target="_blank">${project.github}</a>`;
-        }
-        
-        html += '</div>'
-        div.innerHTML = html;
-
-        unitycontainer.appendChild(div);
-      })
       //other
         let othercontainer = document.getElementById("projects-other-container");
         othercontainer.innerHTML = "";
